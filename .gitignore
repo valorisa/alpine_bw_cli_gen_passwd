@@ -1,0 +1,20 @@
+# Fichiers système
+.DS_Store
+*.swp
+*.tmp
+
+# Fichiers de build
+bw-linux-*.zip
+/bw
+
+# Dossiers de configuration locaux
+/config/
+!/docs/
+
+# Fichiers sensibles
+*.enc
+*.env
+secrets/
+
+# Docker
+docker-compose.override.yml
