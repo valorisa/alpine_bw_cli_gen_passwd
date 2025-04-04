@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  password-generator:
+    image: alpine-bw-cli
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - bw-config:/root/.config/Bitwarden\ CLI
+      - ./data:/data
+
+volumes:
+  bw-config:
