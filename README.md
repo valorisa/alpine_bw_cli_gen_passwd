@@ -1,8 +1,3 @@
-Voici votre **README.md complet** intégrant toutes les améliorations, avec une structure professionnelle et claire :
-
----
-
-```markdown
 # 🏔️ alpine_bw_cli_gen_passwd
 
 [![Alpine Linux](https://img.shields.io/badge/Alpine_Linux-%230D597F.svg?style=for-the-badge&logo=alpine-linux&logoColor=white)](https://alpinelinux.org/)
@@ -92,8 +87,3 @@ MIT - [Lire le texte complet](LICENSE)
 ### Visualisation GitHub :
 ![Preview GitHub](https://user-images.githubusercontent.com/.../preview.png)  
 *(Lien vers une capture d'écran réelle optionnelle)*
-
-Souhaitez-vous :
-1. Ajouter une section "Contributing" ?
-2. Intégrer des captures d'écran du rendu ?
-3. Ajouter un tableau des versions supportées ?
