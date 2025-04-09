@@ -18,3 +18,8 @@ secrets/
 
 # Docker
 docker-compose.override.yml
+
+# Fichiers de log
+*.log
+
+# Fichiers de sauvegarde
