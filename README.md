@@ -18,7 +18,7 @@
 
 ### Méthode 1 : Native (recommandée pour Alpine)
 ```bash
-curl -sSL https://raw.githubusercontent.com/votrecompte/alpine_bw_cli_gen_passwd/main/scripts/install.sh | sh
+curl -sSL https://raw.githubusercontent.com/valorisa/alpine_bw_cli_gen_passwd/main/scripts/install.sh | sh
 source ~/.bashrc
 ```
 
