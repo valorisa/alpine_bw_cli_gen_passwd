@@ -57,8 +57,9 @@ alpine_bw_cli_gen_passwd/
 ├── .dockerignore
 ├── .git
 │   ├── COMMIT_EDITMSG
+│   ├── FETCH_HEAD
 │   ├── HEAD
-│   ├── branches
+│   ├── ORIG_HEAD
 │   ├── config
 │   ├── description
 │   ├── hooks
@@ -66,6 +67,7 @@ alpine_bw_cli_gen_passwd/
 │   ├── info
 │   ├── logs
 │   ├── objects
+│   ├── packed-refs
 │   └── refs
 ├── .github
 │   └── workflows
@@ -73,6 +75,7 @@ alpine_bw_cli_gen_passwd/
 ├── Dockerfile
 ├── LICENSE
 ├── README.md
+├── analysis_report.txt
 ├── docker-compose.yml
 ├── docs
 │   └── advanced.md
@@ -80,7 +83,7 @@ alpine_bw_cli_gen_passwd/
     ├── install.sh
     └── uninstall.sh
 
-12 directories, 14 files
+11 directories, 18 files
 ```
 
 ## 🔧 Personnalisation
