@@ -46,12 +46,34 @@ docker run -it --rm -v bw-data:/root/.config/Bitwarden\ CLI alpine-bw-cli bwg
 ## 📂 Structure du Projet
 ```
 alpine_bw_cli_gen_passwd/
-├── Dockerfile            # Build pour conteneur Alpine
-├── scripts/
-│   ├── install.sh       # Installation native
-│   └── uninstall.sh     # Nettoyage
-└── docs/
-    └── advanced.md      # Personnalisations avancées
+.
+├── .dockerignore
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── HEAD
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   ├── index
+│   ├── info
+│   ├── logs
+│   ├── objects
+│   └── refs
+├── .github
+│   └── workflows
+├── .gitignore
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── docker-compose.yml
+├── docs
+│   └── advanced.md
+└── scripts
+    ├── install.sh
+    └── uninstall.sh
+
+12 directories, 14 files
 ```
 
 ## 🔧 Personnalisation
