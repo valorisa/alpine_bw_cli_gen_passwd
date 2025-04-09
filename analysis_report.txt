@@ -10,3 +10,6 @@ Legend:
 - '-': Not scanned
 - '0': Clean (no security findings detected)
 
+```shell
+trivy image alpine-bw-cli  > analysis_report.txt
+```
