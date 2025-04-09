@@ -7,28 +7,32 @@
 > Générateur de mots de passe sécurisés via Bitwarden CLI optimisé pour Alpine Linux (native + Docker)
 
 ## 🚀 Fonctionnalités
+
 - Génération de mots de passe **128 caractères** avec règles strictes
 - Suppression automatique des warnings Node.js
 - Sortie colorée et lisible
-- **Deux modes** : 
+- **Deux modes** :
   - Installation native (optimisée Alpine)
   - Conteneur Docker isolé
 
 ## 📦 Installation
 
 ### Méthode 1 : Native (recommandée pour Alpine)
+
 ```bash
 curl -sSL https://raw.githubusercontent.com/valorisa/alpine_bw_cli_gen_passwd/main/scripts/install.sh | sh
 source ~/.bashrc
 ```
 
 ### Méthode 2 : Docker
+
 ```bash
 docker build -t alpine-bw-cli .
 docker run -it --rm alpine-bw-cli bwg
 ```
 
 ## ✨ Alias Principal (`bwg`)
+
 ```bash
 alias bwg='
   echo -e "\n\033[1;36m🔐 Génération de mot de passe...\033[0m";
@@ -38,13 +42,16 @@ alias bwg='
 ```
 
 ## 🐳 Utilisation avec Docker
+
 Persistez la configuration entre les runs :
+
 ```bash
 docker run -it --rm -v bw-data:/root/.config/Bitwarden\ CLI alpine-bw-cli bwg
 ```
 
 ## 📂 Structure du Projet
-```
+
+```plaintext
 alpine_bw_cli_gen_passwd/
 .
 ├── .dockerignore
@@ -77,35 +84,40 @@ alpine_bw_cli_gen_passwd/
 ```
 
 ## 🔧 Personnalisation
+
 Modifiez les paramètres dans l'alias :
+
 ```diff
 - --length 128
 + --length 64
 ```
 
 ## 🛠️ Dépendances
+
 | Native          | Docker         |
 |-----------------|----------------|
 | `gcompat`       | Aucune         |
 | `unzip`         |                |
 
 ## 📜 License
+
 MIT - [Lire le texte complet](LICENSE)
 
 ---
 
 > **Note** : Pour une configuration avancée, consultez [docs/advanced.md](docs/advanced.md)
-```
 
 ---
 
-### Points Clés :
+### Points Clés
+
 1. **Badges d'en-tête** : Visibilité immédiate des technologies
 2. **Installation en 1 commande** : Pour les deux méthodes
 3. **Sections dédiées** : Docker vs Native bien séparées
 4. **Tableaux comparatifs** : Pour les dépendances
 5. **Liens vers la doc avancée** : Permet d'alléger le README
 
-### Visualisation GitHub :
+### Visualisation GitHub
+
 ![Preview GitHub](https://user-images.githubusercontent.com/.../preview.png)  
 *(Lien vers une capture d'écran réelle optionnelle)*
